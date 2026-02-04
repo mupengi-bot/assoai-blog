@@ -74,7 +74,7 @@ categories: [case-study, school]
 
 **AssoAI, 무료로 시작하세요.**
 
-[지금 시작하기 →](https://assoai.com)
+[지금 시작하기 →](https://assoai.co.kr)
 
 ---
 

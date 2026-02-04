@@ -159,7 +159,7 @@ Notion은 **지식 관리와 문서화**에 강점이 있습니다.
 AssoAI는 Notion과 연동됩니다.  
 기존 Notion 사용자도 쉽게 도입할 수 있습니다.
 
-👉 **[AssoAI 무료 체험](https://assoai.com)**
+👉 **[AssoAI 무료 체험](https://assoai.co.kr)**
 
 ---
 

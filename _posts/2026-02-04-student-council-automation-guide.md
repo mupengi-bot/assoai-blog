@@ -125,7 +125,7 @@ AssoAI는 하나의 공지를 작성하면 모든 채널에 동시 발송합니�
 
 ### Step 3: AssoAI 설정 (1-2시간)
 
-1. [AssoAI 가입](https://assoai.com)
+1. [AssoAI 가입](https://assoai.co.kr)
 2. 조직 생성 (총학생회/동아리연합회 등)
 3. 팀원 초대
 4. 연동 설정 (Notion, Google Drive, 카카오톡)
@@ -190,7 +190,7 @@ A: 네, 총학생회뿐 아니라 동아리연합회, 학회, 스타트업 등 �
 
 총학생회 운영 자동화, 지금 바로 시작하세요.
 
-👉 **[AssoAI 무료로 시작하기](https://assoai.com)**
+👉 **[AssoAI 무료로 시작하기](https://assoai.co.kr)**
 
 질문이 있으시면 댓글로 남겨주세요. 직접 답변드리겠습니다.
 

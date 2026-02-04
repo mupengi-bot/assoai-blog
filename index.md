@@ -13,7 +13,7 @@ title: AssoAI Blog
 - **사례** - 총학생회, 동아리, 기업 팀 활용 사례
 - **인사이트** - 조직 운영, AI 트렌드
 
-[AssoAI 바로가기](https://assoai.com)
+[AssoAI 바로가기](https://assoai.co.kr)
 
 ---
 

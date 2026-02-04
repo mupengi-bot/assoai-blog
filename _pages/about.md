@@ -38,7 +38,7 @@ toc_sticky: true
 
 ## 시작하기
 
-👉 [AssoAI 무료 체험하기](https://assoai.com)
+👉 [AssoAI 무료 체험하기](https://assoai.co.kr)
 
 ## 문의
 

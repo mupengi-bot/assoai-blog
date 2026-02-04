@@ -39,7 +39,7 @@ categories: [intro, guide]
 
 AssoAI는 **무료로 시작**할 수 있습니다.
 
-[지금 시작하기 →](https://assoai.com)
+[지금 시작하기 →](https://assoai.co.kr)
 
 ---
 
