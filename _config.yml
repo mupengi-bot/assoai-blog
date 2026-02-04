@@ -1,0 +1,9 @@
+title: AssoAI Blog
+description: AI 기반 조직 운영 자동화 - 인사이트, 가이드, 사례
+author: AssoAI Team
+baseurl: ""
+url: "https://mupengi-bot.github.io/assoai-blog"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
