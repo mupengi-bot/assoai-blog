@@ -2,10 +2,12 @@
 title: "AssoAI Blog"
 subtitle: "AI 기반 조직 운영 자동화"
 name: "AssoAI"
-description: "AssoAI 공식 블로그. AI 기반 조직 운영 자동화 인사이트, 가이드, 사례를 공유합니다."
+description: "AssoAI 공식 블로그. AI 기반 조직 운영 자동화 인사이트, 가이드, 사례를 공유합니다. 대학 총학생회, 동아리, 스타트업을 위한 AI 솔루션."
 url: "https://mupengi-bot.github.io"
 baseurl: "/assoai-blog"
 repository: "mupengi-bot/assoai-blog"
+locale: "ko-KR"
+title_separator: "|"
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -17,6 +19,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
+  - jekyll-paginate
 
 # Site Author
 author:
@@ -30,6 +33,35 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mupengi-bot"
+    - label: "Threads"
+      icon: "fab fa-fw fa-threads"
+      url: "https://threads.net/@mupengi98"
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XXXXXXXXXX"  # TODO: 실제 GA4 ID로 교체
+    anonymize_ip: false
+
+# Comments (utterances - GitHub Issues 기반)
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
+    repo: "mupengi-bot/assoai-blog"
+
+# Social Sharing
+twitter:
+  username: "mupengi98"
+facebook:
+  username: ""
+og_image: "/assets/images/og-assoai.png"
+
+# Search
+search: true
+search_full_content: true
 
 # Defaults
 defaults:
@@ -40,18 +72,56 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
       show_date: true
       toc: true
+      toc_sticky: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Pagination
 paginate: 10
 paginate_path: /page:num/
 
-# SEO
-og_image: "/assets/images/og-assoai.png"
-
-# URL 설정 (한글 카테고리 문제 해결)
+# URL 설정
 permalink: /:year/:month/:day/:title/
+
+# Markdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+# Exclude
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README
+  - node_modules
