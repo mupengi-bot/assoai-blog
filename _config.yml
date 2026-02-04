@@ -52,3 +52,6 @@ paginate_path: /page:num/
 
 # SEO
 og_image: "/assets/images/og-assoai.png"
+
+# URL 설정 (한글 카테고리 문제 해결)
+permalink: /:year/:month/:day/:title/

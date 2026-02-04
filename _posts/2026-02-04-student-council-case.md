@@ -2,7 +2,7 @@
 layout: single
 title: "총학생회에서 AssoAI 활용하는 5가지 방법"
 date: 2026-02-04 20:30:00 +0900
-categories: [사례, 학교]
+categories: [case-study, school]
 ---
 
 대학 총학생회 운영, 생각보다 복잡하다.
