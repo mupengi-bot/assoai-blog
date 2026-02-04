@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "AssoAI란? AI 기반 조직 운영 자동화 플랫폼 소개"
 date: 2026-02-04 20:00:00 +0900
 categories: [소개, 가이드]

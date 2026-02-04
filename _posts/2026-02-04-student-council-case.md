@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "총학생회에서 AssoAI 활용하는 5가지 방법"
 date: 2026-02-04 20:30:00 +0900
 categories: [사례, 학교]

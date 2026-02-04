@@ -1,0 +1,25 @@
+---
+---
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+:root {
+  --primary-color: #10b981;
+}
+
+.btn--primary {
+  background-color: #10b981;
+}
+
+.page__content {
+  font-size: 1.05em;
+  line-height: 1.8;
+}
+
+blockquote {
+  border-left: 4px solid #10b981;
+  background: rgba(16, 185, 129, 0.1);
+  padding: 1em;
+  border-radius: 0 8px 8px 0;
+}

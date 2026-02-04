@@ -1,9 +1,54 @@
-title: AssoAI Blog
-description: AI 기반 조직 운영 자동화 - 인사이트, 가이드, 사례
-author: AssoAI Team
-baseurl: ""
-url: "https://mupengi-bot.github.io/assoai-blog"
-theme: minima
+# Site Settings
+title: "AssoAI Blog"
+subtitle: "AI 기반 조직 운영 자동화"
+name: "AssoAI"
+description: "AssoAI 공식 블로그. AI 기반 조직 운영 자동화 인사이트, 가이드, 사례를 공유합니다."
+url: "https://mupengi-bot.github.io"
+baseurl: "/assoai-blog"
+repository: "mupengi-bot/assoai-blog"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Site Author
+author:
+  name: "AssoAI Team"
+  avatar: "/assets/images/assoai-logo.png"
+  bio: "조직 운영을 더 스마트하게 🚀"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://assoai.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mupengi-bot"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      show_date: true
+      toc: true
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+# SEO
+og_image: "/assets/images/og-assoai.png"
